@@ -9,7 +9,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('FB_IMG_17033622451127740.jpg');
+            background-image: url('your-background-image.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
@@ -24,10 +24,12 @@
             text-align: center;
             padding: 20px;
             border-radius: 10px;
+            border: 2px solid #ffd700; /* Golden border */
         }
 
         .overlay h1 {
             font-size: 36px;
+            font-weight: bold;
         }
 
         .overlay h2 {
@@ -39,6 +41,11 @@
             max-width: 100%;
             height: auto;
             margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        .image-description {
+            margin-top: 10px;
         }
 
         .cta-button {
@@ -62,9 +69,10 @@
 
 <body>
     <div class="overlay">
-        <h1>Your Title</h1>
+        <h1>Your Bold Title</h1>
         <h2>Your Subtitle</h2>
-        <img src="超级截屏_20231224_182245.png"  alt="Image Description">
+        <img src="your-image.jpg" alt="Image Description">
+        <p class="image-description">Your Image Description</p>
         <a href="#" class="cta-button">Call to Action</a>
     </div>
 </body>
